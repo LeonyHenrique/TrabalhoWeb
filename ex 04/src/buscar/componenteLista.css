@@ -1,8 +1,8 @@
-.list {
+.lista {
     list-style: none;
     padding: 0;
 }
 
-.list-item {
+.item-lista {
     margin: 5px 0;
 }
