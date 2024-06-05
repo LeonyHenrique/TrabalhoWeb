@@ -1,4 +1,6 @@
 import React from "react";
+import "./searchBar.css";
+
 
 const  SearchBar = ({ setSearchTerm }) => {
     const handleChange = (event) => {
@@ -6,8 +8,9 @@ const  SearchBar = ({ setSearchTerm }) => {
     };
 
     return(
-        <input 
-        type="text"
+      <input
+      className="search-bar"
+      type="text"
       placeholder="Buscar..."
       onChange={handleChange}
     />
